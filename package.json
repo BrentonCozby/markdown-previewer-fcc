@@ -2,6 +2,7 @@
   "name": "markdown-previwer-fcc",
   "version": "0.1.0",
   "private": true,
+  "description": "Type markdown and instantly see what it looks like when rendered",
   "devDependencies": {
     "react-scripts": "0.8.5"
   },
@@ -17,5 +18,15 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrentonCozby/markdown-previewer-fcc.git"
+  },
+  "author": "Brenton Cozby -- brentoncozby.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrentonCozby/markdown-previewer-fcc/issues"
   }
 }
