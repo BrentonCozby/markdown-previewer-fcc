@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Previewer from './previewer/previewer.main';
 import './landing.css';
 

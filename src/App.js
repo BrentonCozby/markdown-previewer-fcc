@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Landing from './landing/landing.main';
 import Footer from './footer/footer.main';
 import './App.css';
 
-const App = () => 
+const App = () =>
   <div className="App">
     <div className="App-header">
       <h2>Markdown Previewer</h2>

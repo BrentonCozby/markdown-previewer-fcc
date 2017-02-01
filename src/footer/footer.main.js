@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './footer.css';
 
-const Footer = () => 
+const Footer = () =>
     <footer className='footer-main'>
         <p className='created-by'>
             <img src={logo} className='react-logo' alt='React logo'/>
