@@ -8,6 +8,7 @@
   },
   "homepage": "https://brentoncozby.com/projects/FreeCodeCamp/markdown-previewer-fcc/",
   "dependencies": {
+    "express": "^4.14.1",
     "html-react-parser": "^0.3.3",
     "marked": "^0.3.6",
     "react": "^15.4.2",
