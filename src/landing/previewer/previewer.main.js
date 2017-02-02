@@ -10,10 +10,9 @@ class Previewer extends Component {
         this.state = {
             input: defaultText
         };
-        this.onInputChange = this.onInputChange.bind(this);
     }
 
-    onInputChange(event) {
+    onInputChange = (event) => {
         this.setState({
             input: event.target.value
         });
