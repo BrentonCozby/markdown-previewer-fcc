@@ -5,17 +5,12 @@ import defaultText from './default-text';
 import './previewer.css';
 
 class Previewer extends Component {
-    constructor() {
-        super();
-        this.state = {
-            input: defaultText
-        };
-    }
+    state = {
+        input: defaultText
+    };
 
     onInputChange = (event) => {
-        this.setState({
-            input: event.target.value
-        });
+        this.setState({input: event.target.value});
     }
 
     render() {
@@ -23,7 +18,7 @@ class Previewer extends Component {
             <div className="previewer-main">
                 <textarea value={this.state.input} className='markdown-input' onChange={this.onInputChange}/>
                 <div className='markdown-output'>
-                    {htmlParser( marked(this.state.input, {sanitize: true}) )}
+                    {htmlParser(marked(this.state.input, {sanitize: true}))}
                 </div>
             </div>
         );
